@@ -42,7 +42,7 @@ O que é necessário ter instalado antes de começar?
 # 1. Clone este repositório
 git clone https://github.com/NayaraFreitas/smart-job-monitor-python.git
 
-# 2. Crie e Ative o amviente Virtual
+# 2. Crie e Ative o ambiente virtual
 python -m venv . venv .\venv\Scripts\activate
 
 # 3. Instale as dependências
