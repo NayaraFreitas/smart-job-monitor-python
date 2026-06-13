@@ -48,7 +48,10 @@ python -m venv . venv .\venv\Scripts\activate
 # 3. Instale as dependências
 pip install -r requirements.txt
 
-# 4. Inicie o projeto
+# 4. Certifique que está na pasta certa
+cd bot
+
+# 5. Inicie o projeto
 python scraper.py
 ```
 
