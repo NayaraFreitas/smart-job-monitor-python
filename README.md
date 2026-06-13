@@ -16,7 +16,7 @@ Buscar vagas manualmente em multiplos sites abaca consumindo horas preciosas da 
 
 
 ## ⚙️ Funcionalidades
-- [ ] Extração Automatizada(scraping) / Em desenvolvimento 
+- [X] Extração Automatizada(scraping)
 - [ ] Tratamento e Consolidação dos Dados / Em desenvolvimento
 - [ ] Execução Agendade CI/CD / Em desenvolvimento
 
@@ -42,16 +42,21 @@ O que é necessário ter instalado antes de começar?
 # 1. Clone este repositório
 git clone https://github.com/NayaraFreitas/smart-job-monitor-python.git
 
-# 2. Crie e Ative o ambiente virtual
-python -m venv . venv .\venv\Scripts\activate
+# 2. Crie o ambiente virtual
+python -m venv .venv
+        ou
+py -m venv .venv
 
-# 3. Instale as dependências
+# 3. Ative o ambiente virtual
+.\venv\Scripts\activate
+
+# 4. Instale as dependências
 pip install -r requirements.txt
 
-# 4. Certifique que está na pasta certa
+# 5. Certifique que está na pasta certa
 cd bot
 
-# 5. Inicie o projeto
+# 6. Inicie o projeto
 python scraper.py
 ```
 
